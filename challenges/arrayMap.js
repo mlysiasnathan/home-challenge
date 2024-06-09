@@ -1,5 +1,3 @@
-let givenArray = [4, 2, 7, 1, 9, 5];  /* define the given array */
-let target = 14;                        /* define the given target */
 function resolve(array, targetNum){
     const sum = arr => arr.reduce((a,b) => a + b); /* function that return the sum of array's elements */
     // iterate through array's elements to found subArray that should be stored and added to each other, then be compared to the target
@@ -12,5 +10,6 @@ function resolve(array, targetNum){
     }
     return false;
 }
-
+const givenArray = [4, 2, 7, 1, 9, 5];  /* define the given array */
+const target = 14; /* define the given target */
 console.log(resolve(givenArray,target))
